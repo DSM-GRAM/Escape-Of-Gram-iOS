@@ -1,0 +1,6 @@
+module Pods_escapeRoom {
+  umbrella header "Pods-escapeRoom-umbrella.h"
+
+  export *
+  module * { export * }
+}
