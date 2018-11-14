@@ -20,8 +20,8 @@ class StoryVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let ud = UserDefaults.standard
-        ud.set("fail", forKey: "success")
+//        let ud = UserDefaults.standard
+//        ud.set("fail", forKey: "success")
 
         btnBack.isEnabled = false
         
