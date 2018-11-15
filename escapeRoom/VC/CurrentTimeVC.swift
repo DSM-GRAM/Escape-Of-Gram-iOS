@@ -98,17 +98,20 @@ class CurrentTimeVC: UIViewController {
     }
     
     @IBAction func btnFirstHint(_ sender: Any) {
+        lblHint.text = "당신은 항상 노트북 비밀번호를 까먹은적이 많았다. 그래서 메모를 해둔 기억이 난다. 책상밑이 어둡다"
         showHint(hidden: false)
         btnFirstHint.setImage(UIImage(named: "hintBasic.png"), for: .normal)
     }
     
     @IBAction func btnSecondHint(_ sender: Any) {
+        lblHint.text = "사람들의 연락처정보는 항상 내 USB에 있었다."
         showHint(hidden: false)
         btnSecondHint.setImage(UIImage(named: "hintBasic.png"), for: .normal)
     }
     
     @IBAction func btnThirdHint(_ sender: Any) {
         showHint(hidden: false)
+        lblHint.text = "그녀와의 추억을 생각해보자."
         btnThirdHint.setImage(UIImage(named: "hintBasic.png"), for: .normal)
     }
     
